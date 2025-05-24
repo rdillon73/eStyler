@@ -1,14 +1,13 @@
 # eStyler
 eStyler is a R&amp;D project by Prof. Dillon (roberto.dillon@ieee.org) to identify users by their unique typing styles, i.e. relying on keyboard dynamics for free-text analysis, or other unique means of input that can provide reliable biometric identification data.
 
-Version 2.0 includes a completely refactored set of scripts, released here under GPL 3.0 license, includeing the following files:
-
-PYTHON SCRIPTS:  
+Version 2.0 includes a completely refactored set of scripts, released here under GPL 3.0 license, including the following files:
+ 
 Step 1: s1_ABM_typing_simulator.py
-the Agent Based Model realistically simulating users with different typing characteristics
+the new Agent Based Model realistically simulates users with different typing characteristics
 
 Step 2: s2_ABM_dataset_gen_2_0.py
-a file to generate a dataset of user data by using different ABM profiles
+a file leveraging the ABM to generate a new dataset of random text by users with different typing characteristics.
 
 Step 3: s3_d_feature_extractor_timewindow.py
 from typing data to features, in a slliding 5 second window
